@@ -37,5 +37,10 @@ namespace REP.Service
         {
             repo.Remover(pessoa);
         }
+
+        public void Salvar()
+        {
+            repo.Salvar(@"C:\jsonteste\arquivoJson.json");
+        }
     }
 }
